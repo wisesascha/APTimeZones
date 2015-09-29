@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../APTimeZones.xcodeproj">
+      location = "group:APTimeZones.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:Example.xcodeproj">
+      location = "container:Example/Example.xcodeproj">
    </FileRef>
 </Workspace>
