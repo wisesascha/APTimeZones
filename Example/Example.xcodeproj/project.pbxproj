@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91679FA61BBA91A3001CF62B /* APTimeZones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91679FA51BBA91A3001CF62B /* APTimeZones.framework */; };
 		A71798141830CE5100E857F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798131830CE5100E857F4 /* Foundation.framework */; };
 		A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798151830CE5100E857F4 /* CoreGraphics.framework */; };
 		A71798181830CE5100E857F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798171830CE5100E857F4 /* UIKit.framework */; };
@@ -21,14 +22,10 @@
 		A71798351830CE5100E857F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798171830CE5100E857F4 /* UIKit.framework */; };
 		A717983D1830CE5100E857F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A717983B1830CE5100E857F4 /* InfoPlist.strings */; };
 		A717983F1830CE5100E857F4 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A717983E1830CE5100E857F4 /* ExampleTests.m */; };
-		A717984C1830CE6E00E857F4 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717984A1830CE6E00E857F4 /* APTimeZones.m */; };
-		A717984D1830CE6E00E857F4 /* timezonesDB.json in Resources */ = {isa = PBXBuildFile; fileRef = A717984B1830CE6E00E857F4 /* timezonesDB.json */; };
 		A717984F1830D02100E857F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A717984E1830D02100E857F4 /* MapKit.framework */; };
 		A71798521830D04300E857F4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71798511830D04300E857F4 /* MapViewController.m */; };
 		A71798541830D16400E857F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798531830D16400E857F4 /* CoreLocation.framework */; };
 		A71798571830D37D00E857F4 /* GeoCoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71798561830D37D00E857F4 /* GeoCoderViewController.m */; };
-		A717985C1830D59400E857F4 /* CLPlacemark+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717985B1830D59400E857F4 /* CLPlacemark+APTimeZones.m */; };
-		A717985F1830D5E000E857F4 /* CLLocation+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = A717985E1830D5E000E857F4 /* CLLocation+APTimeZones.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91679FA11BBA9142001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APTimeZones.framework; path = "../build/Debug-iphoneos/APTimeZones.framework"; sourceTree = "<group>"; };
+		91679FA51BBA91A3001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APTimeZones.framework; path = "../build/Debug-iphoneos/APTimeZones.framework"; sourceTree = "<group>"; };
 		A71798101830CE5100E857F4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71798131830CE5100E857F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A71798151830CE5100E857F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,19 +60,12 @@
 		A717983A1830CE5100E857F4 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A717983C1830CE5100E857F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A717983E1830CE5100E857F4 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
-		A71798491830CE6E00E857F4 /* APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTimeZones.h; sourceTree = "<group>"; };
-		A717984A1830CE6E00E857F4 /* APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTimeZones.m; sourceTree = "<group>"; };
-		A717984B1830CE6E00E857F4 /* timezonesDB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timezonesDB.json; sourceTree = "<group>"; };
 		A717984E1830D02100E857F4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A71798501830D04300E857F4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		A71798511830D04300E857F4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		A71798531830D16400E857F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A71798551830D37D00E857F4 /* GeoCoderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCoderViewController.h; sourceTree = "<group>"; };
 		A71798561830D37D00E857F4 /* GeoCoderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCoderViewController.m; sourceTree = "<group>"; };
-		A717985A1830D59400E857F4 /* CLPlacemark+APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPlacemark+APTimeZones.h"; sourceTree = "<group>"; };
-		A717985B1830D59400E857F4 /* CLPlacemark+APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPlacemark+APTimeZones.m"; sourceTree = "<group>"; };
-		A717985D1830D5E000E857F4 /* CLLocation+APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+APTimeZones.h"; sourceTree = "<group>"; };
-		A717985E1830D5E000E857F4 /* CLLocation+APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+APTimeZones.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91679FA61BBA91A3001CF62B /* APTimeZones.framework in Frameworks */,
 				A71798541830D16400E857F4 /* CoreLocation.framework in Frameworks */,
 				A717984F1830D02100E857F4 /* MapKit.framework in Frameworks */,
 				A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */,
@@ -124,6 +117,8 @@
 		A71798121830CE5100E857F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91679FA51BBA91A3001CF62B /* APTimeZones.framework */,
+				91679FA11BBA9142001CF62B /* APTimeZones.framework */,
 				A71798531830D16400E857F4 /* CoreLocation.framework */,
 				A717984E1830D02100E857F4 /* MapKit.framework */,
 				A71798131830CE5100E857F4 /* Foundation.framework */,
@@ -138,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				A71798581830D38700E857F4 /* ViewControllers */,
-				A71798481830CE6E00E857F4 /* APTimeZones */,
 				A71798221830CE5100E857F4 /* AppDelegate.h */,
 				A71798231830CE5100E857F4 /* AppDelegate.m */,
 				A71798251830CE5100E857F4 /* Main.storyboard */,
@@ -177,18 +171,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A71798481830CE6E00E857F4 /* APTimeZones */ = {
-			isa = PBXGroup;
-			children = (
-				A71798591830D57B00E857F4 /* Categories */,
-				A71798491830CE6E00E857F4 /* APTimeZones.h */,
-				A717984A1830CE6E00E857F4 /* APTimeZones.m */,
-				A717984B1830CE6E00E857F4 /* timezonesDB.json */,
-			);
-			name = APTimeZones;
-			path = ../../APTimeZones;
-			sourceTree = "<group>";
-		};
 		A71798581830D38700E857F4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,17 +182,6 @@
 				A71798561830D37D00E857F4 /* GeoCoderViewController.m */,
 			);
 			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		A71798591830D57B00E857F4 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				A717985A1830D59400E857F4 /* CLPlacemark+APTimeZones.h */,
-				A717985B1830D59400E857F4 /* CLPlacemark+APTimeZones.m */,
-				A717985D1830D5E000E857F4 /* CLLocation+APTimeZones.h */,
-				A717985E1830D5E000E857F4 /* CLLocation+APTimeZones.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +228,7 @@
 		A71798081830CE5100E857F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Alterplay;
 				TargetAttributes = {
 					A71798301830CE5100E857F4 = {
@@ -289,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A717984D1830CE6E00E857F4 /* timezonesDB.json in Resources */,
 				A717982C1830CE5100E857F4 /* Images.xcassets in Resources */,
 				A717981E1830CE5100E857F4 /* InfoPlist.strings in Resources */,
 				A71798271830CE5100E857F4 /* Main.storyboard in Resources */,
@@ -316,9 +286,6 @@
 				A71798521830D04300E857F4 /* MapViewController.m in Sources */,
 				A71798201830CE5100E857F4 /* main.m in Sources */,
 				A71798571830D37D00E857F4 /* GeoCoderViewController.m in Sources */,
-				A717985F1830D5E000E857F4 /* CLLocation+APTimeZones.m in Sources */,
-				A717985C1830D59400E857F4 /* CLPlacemark+APTimeZones.m in Sources */,
-				A717984C1830CE6E00E857F4 /* APTimeZones.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +339,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -387,6 +353,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -411,7 +378,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -448,6 +414,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alterplay.timezonesexample.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +430,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alterplay.timezonesexample.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -469,7 +441,6 @@
 		A71798461830CE5100E857F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -483,6 +454,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ExampleTests/ExampleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alterplay.timezonesexample.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -492,7 +464,6 @@
 		A71798471830CE5100E857F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -502,6 +473,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "ExampleTests/ExampleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alterplay.timezonesexample.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -527,6 +499,7 @@
 				A71798441830CE5100E857F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A71798451830CE5100E857F4 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +508,7 @@
 				A71798471830CE5100E857F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "GeoCoderViewController.h"
-#import "APTimeZones.h"
+#import <APTimeZones/APTimeZones.h>
 
 @implementation GeoCoderViewController
 

@@ -7,7 +7,7 @@
 //
 
 #import "MapViewController.h"
-#import "APTimeZones.h"
+#import <APTimeZones/APTimeZones.h>
 
 @implementation MapViewController
 
