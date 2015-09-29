@@ -15,6 +15,14 @@
 		9133A4491BBA7A9E0059E658 /* CLPlacemark+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4431BBA7A9E0059E658 /* CLPlacemark+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9133A44A1BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A4441BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
 		9133A44D1BBA7AA80059E658 /* timezonesDB.json in Resources */ = {isa = PBXBuildFile; fileRef = 9133A44C1BBA7AA80059E658 /* timezonesDB.json */; settings = {ASSET_TAGS = (); }; };
+		91679FC91BBA9B54001CF62B /* CLPlacemark+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A4441BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
+		91679FCA1BBA9B54001CF62B /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A43F1BBA7A9E0059E658 /* APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
+		91679FCB1BBA9B54001CF62B /* CLLocation+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A4421BBA7A9E0059E658 /* CLLocation+APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
+		91679FCE1BBA9B54001CF62B /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4351BBA79FF0059E658 /* APTimeZones.h */; };
+		91679FCF1BBA9B54001CF62B /* CLPlacemark+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4431BBA7A9E0059E658 /* CLPlacemark+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91679FD01BBA9B54001CF62B /* CLLocation+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4411BBA7A9E0059E658 /* CLLocation+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91679FD11BBA9B54001CF62B /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A43E1BBA7A9E0059E658 /* APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91679FD31BBA9B54001CF62B /* timezonesDB.json in Resources */ = {isa = PBXBuildFile; fileRef = 9133A44C1BBA7AA80059E658 /* timezonesDB.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +36,18 @@
 		9133A4431BBA7A9E0059E658 /* CLPlacemark+APTimeZones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPlacemark+APTimeZones.h"; sourceTree = "<group>"; };
 		9133A4441BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPlacemark+APTimeZones.m"; sourceTree = "<group>"; };
 		9133A44C1BBA7AA80059E658 /* timezonesDB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timezonesDB.json; sourceTree = "<group>"; };
+		91679FD71BBA9B54001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APTimeZones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9133A42E1BBA79FF0059E658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91679FCC1BBA9B54001CF62B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9133A4321BBA79FF0059E658 /* APTimeZones.framework */,
+				91679FD71BBA9B54001CF62B /* APTimeZones.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,12 +136,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91679FCD1BBA9B54001CF62B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91679FCE1BBA9B54001CF62B /* APTimeZones.h in Headers */,
+				91679FCF1BBA9B54001CF62B /* CLPlacemark+APTimeZones.h in Headers */,
+				91679FD01BBA9B54001CF62B /* CLLocation+APTimeZones.h in Headers */,
+				91679FD11BBA9B54001CF62B /* APTimeZones.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9133A4311BBA79FF0059E658 /* APTimeZones */ = {
+		9133A4311BBA79FF0059E658 /* APTimeZones-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9133A43A1BBA79FF0059E658 /* Build configuration list for PBXNativeTarget "APTimeZones" */;
+			buildConfigurationList = 9133A43A1BBA79FF0059E658 /* Build configuration list for PBXNativeTarget "APTimeZones-iOS" */;
 			buildPhases = (
 				9133A42D1BBA79FF0059E658 /* Sources */,
 				9133A42E1BBA79FF0059E658 /* Frameworks */,
@@ -135,9 +163,27 @@
 			);
 			dependencies = (
 			);
-			name = APTimeZones;
+			name = "APTimeZones-iOS";
 			productName = APTimeZones;
 			productReference = 9133A4321BBA79FF0059E658 /* APTimeZones.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91679FC71BBA9B54001CF62B /* APTimeZones-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91679FD41BBA9B54001CF62B /* Build configuration list for PBXNativeTarget "APTimeZones-watchOS" */;
+			buildPhases = (
+				91679FC81BBA9B54001CF62B /* Sources */,
+				91679FCC1BBA9B54001CF62B /* Frameworks */,
+				91679FCD1BBA9B54001CF62B /* Headers */,
+				91679FD21BBA9B54001CF62B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APTimeZones-watchOS";
+			productName = APTimeZones;
+			productReference = 91679FD71BBA9B54001CF62B /* APTimeZones.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9133A4311BBA79FF0059E658 /* APTimeZones */,
+				9133A4311BBA79FF0059E658 /* APTimeZones-iOS */,
+				91679FC71BBA9B54001CF62B /* APTimeZones-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91679FD21BBA9B54001CF62B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91679FD31BBA9B54001CF62B /* timezonesDB.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,6 +244,16 @@
 				9133A44A1BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m in Sources */,
 				9133A4461BBA7A9E0059E658 /* APTimeZones.m in Sources */,
 				9133A4481BBA7A9E0059E658 /* CLLocation+APTimeZones.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91679FC81BBA9B54001CF62B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91679FC91BBA9B54001CF62B /* CLPlacemark+APTimeZones.m in Sources */,
+				91679FCA1BBA9B54001CF62B /* APTimeZones.m in Sources */,
+				91679FCB1BBA9B54001CF62B /* CLLocation+APTimeZones.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +361,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alterplay.APTimeZones;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = APTimeZones;
+				PRODUCT_NAME = APTimeZones;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -315,8 +382,54 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alterplay.APTimeZones;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = APTimeZones;
+				PRODUCT_NAME = APTimeZones;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		91679FD51BBA9B54001CF62B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = APTimeZones/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alterplay.APTimeZones;
+				PRODUCT_MODULE_NAME = APTimeZones;
+				PRODUCT_NAME = APTimeZones;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		91679FD61BBA9B54001CF62B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = APTimeZones/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alterplay.APTimeZones;
+				PRODUCT_MODULE_NAME = APTimeZones;
+				PRODUCT_NAME = APTimeZones;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -333,11 +446,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9133A43A1BBA79FF0059E658 /* Build configuration list for PBXNativeTarget "APTimeZones" */ = {
+		9133A43A1BBA79FF0059E658 /* Build configuration list for PBXNativeTarget "APTimeZones-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9133A43B1BBA79FF0059E658 /* Debug */,
 				9133A43C1BBA79FF0059E658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91679FD41BBA9B54001CF62B /* Build configuration list for PBXNativeTarget "APTimeZones-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91679FD51BBA9B54001CF62B /* Debug */,
+				91679FD61BBA9B54001CF62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

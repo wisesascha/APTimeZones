@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91679FA61BBA91A3001CF62B /* APTimeZones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91679FA51BBA91A3001CF62B /* APTimeZones.framework */; };
+		91679FDA1BBA9DA5001CF62B /* APTimeZones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91679FD91BBA9DA5001CF62B /* APTimeZones.framework */; };
 		A71798141830CE5100E857F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798131830CE5100E857F4 /* Foundation.framework */; };
 		A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798151830CE5100E857F4 /* CoreGraphics.framework */; };
 		A71798181830CE5100E857F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71798171830CE5100E857F4 /* UIKit.framework */; };
@@ -39,8 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91679FA11BBA9142001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APTimeZones.framework; path = "../build/Debug-iphoneos/APTimeZones.framework"; sourceTree = "<group>"; };
-		91679FA51BBA91A3001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APTimeZones.framework; path = "../build/Debug-iphoneos/APTimeZones.framework"; sourceTree = "<group>"; };
+		91679FD91BBA9DA5001CF62B /* APTimeZones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APTimeZones.framework; path = "../build/Debug-iphoneos/APTimeZones.framework"; sourceTree = "<group>"; };
 		A71798101830CE5100E857F4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71798131830CE5100E857F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A71798151830CE5100E857F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91679FA61BBA91A3001CF62B /* APTimeZones.framework in Frameworks */,
+				91679FDA1BBA9DA5001CF62B /* APTimeZones.framework in Frameworks */,
 				A71798541830D16400E857F4 /* CoreLocation.framework in Frameworks */,
 				A717984F1830D02100E857F4 /* MapKit.framework in Frameworks */,
 				A71798161830CE5100E857F4 /* CoreGraphics.framework in Frameworks */,
@@ -117,8 +116,7 @@
 		A71798121830CE5100E857F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91679FA51BBA91A3001CF62B /* APTimeZones.framework */,
-				91679FA11BBA9142001CF62B /* APTimeZones.framework */,
+				91679FD91BBA9DA5001CF62B /* APTimeZones.framework */,
 				A71798531830D16400E857F4 /* CoreLocation.framework */,
 				A717984E1830D02100E857F4 /* MapKit.framework */,
 				A71798131830CE5100E857F4 /* Foundation.framework */,
@@ -411,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
@@ -427,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";

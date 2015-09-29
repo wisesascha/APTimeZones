@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9133A4311BBA79FF0059E658"
                BuildableName = "APTimeZones.framework"
-               BlueprintName = "APTimeZones"
+               BlueprintName = "APTimeZones-iOS"
                ReferencedContainer = "container:APTimeZones.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9133A4311BBA79FF0059E658"
             BuildableName = "APTimeZones.framework"
-            BlueprintName = "APTimeZones"
+            BlueprintName = "APTimeZones-iOS"
             ReferencedContainer = "container:APTimeZones.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9133A4311BBA79FF0059E658"
             BuildableName = "APTimeZones.framework"
-            BlueprintName = "APTimeZones"
+            BlueprintName = "APTimeZones-iOS"
             ReferencedContainer = "container:APTimeZones.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
