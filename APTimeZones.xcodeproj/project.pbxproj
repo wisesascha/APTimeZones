@@ -10,6 +10,9 @@
 		9115BE1C1BBBD779001519F7 /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A43E1BBA7A9E0059E658 /* APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9115BE1D1BBBD779001519F7 /* CLLocation+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4411BBA7A9E0059E658 /* CLLocation+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9115BE1E1BBBD779001519F7 /* CLPlacemark+APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4431BBA7A9E0059E658 /* CLPlacemark+APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9115BE321BBBF335001519F7 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A43F1BBA7A9E0059E658 /* APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
+		9115BE331BBBF335001519F7 /* CLLocation+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A4421BBA7A9E0059E658 /* CLLocation+APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
+		9115BE341BBBF335001519F7 /* CLPlacemark+APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A4441BBA7A9E0059E658 /* CLPlacemark+APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
 		9133A4361BBA79FF0059E658 /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A4351BBA79FF0059E658 /* APTimeZones.h */; };
 		9133A4451BBA7A9E0059E658 /* APTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133A43E1BBA7A9E0059E658 /* APTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9133A4461BBA7A9E0059E658 /* APTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9133A43F1BBA7A9E0059E658 /* APTimeZones.m */; settings = {ASSET_TAGS = (); }; };
@@ -261,6 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9115BE341BBBF335001519F7 /* CLPlacemark+APTimeZones.m in Sources */,
+				9115BE321BBBF335001519F7 /* APTimeZones.m in Sources */,
+				9115BE331BBBF335001519F7 /* CLLocation+APTimeZones.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
