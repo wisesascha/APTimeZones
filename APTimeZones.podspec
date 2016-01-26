@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = 'APTimeZones/**/*.{h,m}'
   s.requires_arc = true
   s.frameworks   = 'CoreLocation'
-  s.resources = 'APTimeZones/timezonesDB.json'
+  s.resources = 'APTimeZones/Resources/timezonesDB.json'
 end
